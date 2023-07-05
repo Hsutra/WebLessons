@@ -1,0 +1,516 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    height: 70px;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+.nav-container>input{
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+    border: 0.5px solid grey;
+}
+
+.burger>img{
+    display: flex;
+    width: 40px;
+    margin-top: 20px;
+
+}
+
+.first-block{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url(images/pexelsphoto3393444.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.first-div{
+    display: flex;
+    margin-top: 50px;
+    width: 1100px;
+    height: 250px;
+    justify-content: end;
+    align-items: end;
+}
+
+.first-text{
+    display: flex;
+    width: 500px;
+    height: 110px;
+    color: white;
+    justify-content: end;
+    font-size: 38px; 
+    text-align: right;
+}
+
+.second-div{
+    display: flex;
+    width: 1100px;
+    height: 150px;
+    justify-content: end;
+    align-items: center;
+}
+
+.second-text{
+    display: flex;
+    width: 550px;
+    height: 110px;
+    color: white;
+    justify-content: end;
+    font-size: 20px; 
+    text-align: right;
+    line-height: 30px;
+}
+
+.third-div{
+    display: flex;
+    width: 1100px;
+    height: 130px;
+    justify-content: end;
+    align-items: end;
+}
+
+.third-text{
+    display: flex;
+    width: 550px;
+    height: 110px;
+    color: white;
+    font-size: 25px; 
+    justify-content: end;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.second-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.fourth-div{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+}
+
+.secblock-firstpic{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    bottom: 80px;
+    width: 320px;
+    height: 350px;
+    background-color: white;
+}
+
+#odin{
+    margin-left: 20px;
+    align-self: left;
+}
+
+#dva{
+    align-self: middle;
+}
+
+#tri{
+   margin-right: 20px;
+   align-self: right;
+}
+
+.pic-pos{
+    display: flex;
+    margin-top: 20px;
+    width: 280px;
+    height: 250px;
+}
+
+.pic-pos>img{
+    height: 100%;
+    width: 100%;
+}
+
+.txt-underpics{
+    display: flex;
+    width: 280px;
+    height: 60px;
+    font-size: 23px;
+    align-items: center;
+}
+
+.third-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #1a1a1a;
+}
+
+#tb-title{
+    color: white;
+    justify-content: start;
+    align-items: end;
+    height: 100px;
+    font-size: 30px;
+}
+
+#tb-maindiv{
+    justify-content: start;
+    align-items: center;
+    height: 150px;
+ 
+}
+
+#tb-maintext{
+    color: white;
+    height: 100px;
+    width: 900px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+#tb-finaltext{
+    justify-content: start;
+    align-items: start;
+    color:white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.fourth-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.fb-div{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+}
+
+.textblock{
+    display: flex;
+    width: 350px;
+    height: 700px;
+    background-color: white;
+}
+
+#uno{
+    align-self: left;
+    font-size: 50px;
+}
+
+#dos{
+    align-self: middle;
+    font-size: 25px;
+}
+
+#tres{
+    align-self: right;
+    font-size: 25px;
+}
+
+#dop-tres{
+    width: 100%;
+    height: 80px;
+    margin-top: 35px;
+    text-decoration: underline;
+}
+
+.fifth-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(216, 232, 247);
+}
+
+.ftb-titlediv{
+    display: flex;
+    width: 1100px;
+    height: 100px;
+    align-items: end;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ftb-bigdiv{
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ftb-smalldivs{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+}
+
+.ftb-smalldivs>img{
+    height: 350px;
+    width: 100%;
+}
+
+.ftv-textdivs{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    font-size: 25px;
+    color: rgb(38, 37, 35);
+    margin-top: 20px;
+}
+
+#sxtb-text{
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.seventh-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1300px;
+}
+
+.svb-maindiv{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 100%;
+}
+
+.svb-upperdiv{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.tigre-pic{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-size: cover;
+    background-image: url(images/photo-1517957754642-2870518e16f8.jpg);
+}
+
+.svb-sndupperdiv{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.svb-sndfrstext{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    font-size: 37px;
+  
+}
+
+.svb-sndsndtext{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+
+.snb-sndthrtext{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-decoration: underline;
+  
+}
+
+.svb-lowerdiv{
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.svb-sndlowerdiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#un{
+    font-size: 130px;
+    font-weight: bold;
+}
+
+#deux{
+    background-size: cover;
+    background-image: url(images/as.jpg);
+}
+
+.svb-finaldiv{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 320px;
+    width: 700px;
+    height: 200px;
+}
+
+.svb-pics{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    height: 100%;
+    width: 200px;
+    background-size: cover;
+}
+
+#meg{
+    background-image: url(images/photo-1432836627967-171c58844bde.jpg);
+}
+
+#yergus{
+    background-image: url(images/photo-1517486430290-35657bdcef51.jpg);
+}
+
+#yerek{
+    background-image: url(images/photo-1512505965932-0dbfa7e7b8c8.jpg);
+}
+
+
+
+
+.footer-maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color:#1a1a1a;
+}
+
+.footer-bigdiv{
+    display: flex;
+    width: 1100px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.footer-firstdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+.footer-firsttext{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.footer-firstsym{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 50px;
+}
+
+.footer-firstsym>img{
+    width: 60px;
+    height: 60px;
+}
+
+.footer-secondtext{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-secondmiddiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    color: white;
+}
+
+.footer-snddivs{
+    display: flex;
+    width: 1100px;
+    height: 300px;
+}
+
+.footer-smalldiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+}
+
+.footer-smalldiv>img{
+    width: 100%;
+    height: 100%;
+}
+
+#smalldiv-dec{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}

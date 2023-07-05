@@ -1,0 +1,24 @@
+#triangle{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellowgreen;
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    outline: 1px solid grey;
+}
+
+.white{
+    left: 30px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    outline: 1px solid grey;
+}
